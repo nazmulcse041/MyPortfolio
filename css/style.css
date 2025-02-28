@@ -22,15 +22,13 @@ html {
     background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: 1s ease-out;
 }
 
 .text-gradient:hover{
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5);
-    
-     
+    transition: 1s ease-out; 
 }
 
 .rounded-4 {
@@ -71,8 +69,6 @@ html {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5);
-    
-     
 }
 
 
@@ -120,6 +116,7 @@ html {
     text-align: center;
     min-height: 70vh;
     overflow: hidden;
+
 }
 
 #loading-spinner {
